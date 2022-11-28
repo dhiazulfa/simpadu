@@ -8,14 +8,16 @@
         </div>  
         <div class="col-lg-5">
           <h3>
-            Sekilas tentang LPK Omahtech
+            Sistem Informasi Padukuhan
           </h3>
           <p>
-            Seiring dengan perkembangan era globalisasi, dunia Teknologi Informasi dan Komunikasi juga 
-            berkembang dengan pesat. Saat ini Teknologi Informasi dan Komunikasi sudah menjadi kebutuhan 
-            primer bagi banyak kalangan. Dengan menggunakan Teknologi Informasi dan Komunikasi, suatu 
-            proses dan kegiatan dapat dilakukan dengan lebih cepat, mudah dan efisien. Oleh karena itu 
-            penguasaan terhadap perangkat teknologi komunikasi perlu diajarkan pada semua tingkatan.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius exercitationem in ea a? 
+            Dicta maiores, voluptas, possimus expedita fuga odit exercitationem consequatur et itaque labore doloremque 
+            enim inventore aliquam ullam illum odio asperiores? Animi voluptatum optio similique. Nemo, sint id asperiores 
+            voluptas nisi officia dolor aliquam beatae incidunt eveniet, quod consequatur exercitationem, modi quam cupiditate 
+            ducimus accusamus molestias quas sed placeat! Modi, qui aperiam. Voluptate ea excepturi maiores porro ab. Facilis error 
+            dolore eligendi illo dolor exercitationem beatae, repudiandae quas blanditiis quia rem dolorum nesciunt quis. Architecto, 
+            odio distinctio atque molestias unde sunt deserunt accusamus saepe similique nemo id suscipit.
           </p>
           <p>
            <b> <a href="/register">Klik Disini</a> </b>untuk melakukan pembelian paket ajar

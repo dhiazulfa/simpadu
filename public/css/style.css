@@ -65,7 +65,7 @@
     position: relative;
   }
 
-  .jumbotron::after{
+  /* .jumbotron::after{
     content: '';
     display: block;
     width: 100%;
@@ -73,7 +73,7 @@
     background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
     position: absolute;
     bottom: 0;
-  }
+  } */
 
   .jumbotron .display-4{
     color: white;
@@ -163,7 +163,7 @@ footer {
   /* Desktop Version */
   @media(min-width: 992px){
   .navbar-brand-main, .navlink-main{
-    color: white !important;
+    color: black !important;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
   }
 
@@ -187,7 +187,7 @@ footer {
   }
   
   .jumbotron{
-    margin-top: -75px;
+    /* margin-top: -75px; */
     height: 640px;
   }
 
