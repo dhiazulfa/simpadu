@@ -1,6 +1,5 @@
 @extends('layouts.main')
 @section('jumbotron')
-
 <div class="jumbotron jumbotron-fluid">
   {{-- <div class="container">
     <h1 class="display-4">Lembaga Kursus dan Pelatihan Calon <span> PROGRAMMER & MULTIMEDIA </span></h1>

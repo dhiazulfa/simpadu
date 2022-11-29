@@ -24,6 +24,34 @@
           </p>
         </div>
     </div>
+
+    <br><br>
+    <div class="container">
+    <div class="page-content page-container" id="page-content">
+        <div class="padding">
+            <div class="row">
+                <div class="container-fluid d-flex justify-content-center">
+                    <div class="col-sm-8 col-md-6">
+                        <div class="card">
+                            <div class="card-header">Demografik Penduduk</div>
+                            <div class="card-body" style="height: 420px">
+                                <div class="chartjs-size-monitor" style="position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -1;">
+                                    <div class="chartjs-size-monitor-expand" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;">
+                                        <div style="position:absolute;width:1000000px;height:1000000px;left:0;top:0"></div>
+                                    </div>
+                                    <div class="chartjs-size-monitor-shrink" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;">
+                                        <div style="position:absolute;width:200%;height:200%;left:0; top:0"></div>
+                                    </div>
+                                </div> <canvas id="chart-line" width="299" height="200" class="chartjs-render-monitor" style="display: block; width: 299px; height: 200px;"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
 {{-- 
 <br>
 <h1 class="mt-3 mb-3 text-center">Paket Ajar</h1>
@@ -163,82 +191,5 @@
     <div class="d-flex justify-content-center">
         {{$posts->links()}}
     </div> --}}
-
-    <!-- section Video -->
-
-    <h1 class="mt-3 mb-3 text-center">Youtube Video Kami</h1>
-    <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/R0Daw3Kanw8" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-    <br><br>
-
-    <h1 class="mt-3 mb-3 text-center">Playlist Omtech Indonesia</h1>
-    <div class="row">
-        <div class="col-md-4 mb-3">
-            <div class="card">
-                <div class="position-absolute px-3 py-2 text-white" style="background-color:rgba(0, 0, 0, 0.7)">
-                    <a href="#" class="text-decoration-none text-white">Programming</a>
-                </div>
-                <div class="embed-responsive embed-responsive-4by3">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/videoseries?list=PLkPW9OSHFFG-dtffxLgwCoTS0ObLLhNvW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  </div>
-                <div class="card-body">
-                    <h2 class="card-title">
-                        <a href="https://www.youtube.com/watch?v=T0lOXsr7Ihg&list=PLkPW9OSHFFG-dtffxLgwCoTS0ObLLhNvW" class="text-decoration-none" target="_blank">Programming</a>
-                    </h2>
-                    <p>
-                        <small class="text-muted">
-                        By. Omah Technology Indonesia on Youtube
-                        </small>
-                    </p>
-                    <a href="https://www.youtube.com/watch?v=T0lOXsr7Ihg&list=PLkPW9OSHFFG-dtffxLgwCoTS0ObLLhNvW" class="btn btn-success">Go to Youtube</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-4 mb-3">
-            <div class="card">
-                <div class="position-absolute px-3 py-2 text-white" style="background-color:rgba(0, 0, 0, 0.7)">
-                    <a href="#" class="text-decoration-none text-white">Desaign</a>
-                </div>
-                <div class="embed-responsive embed-responsive-4by3">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/videoseries?list=PLkPW9OSHFFG_F4g9q3T9XARDgIS6kU5rw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  </div>
-                <div class="card-body">
-                    <h2 class="card-title">
-                        <a href="https://www.youtube.com/embed/videoseries?list=PLkPW9OSHFFG_F4g9q3T9XARDgIS6kU5rw" class="text-decoration-none" target="_blank">Desaign</a>
-                    </h2>
-                    <p>
-                        <small class="text-muted">
-                        By. Omah Technology Indonesia on Youtube
-                        </small>
-                    </p>
-                    <a href="https://youtu.be/1oWLrDuu5dI" class="btn btn-success">Go to Youtube</a>
-                </div>
-            </div>
-        </div>
-        
-        <div class="col-md-4 mb-3">
-            <div class="card">
-                <div class="position-absolute px-3 py-2 text-white" style="background-color:rgba(0, 0, 0, 0.7)">
-                    <a href="#" class="text-decoration-none text-white">Animasi</a>
-                </div>
-                <div class="embed-responsive embed-responsive-4by3">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/videoseries?list=PLkPW9OSHFFG9EnKIB-gR1-w5PZWXVOKcT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  </div>
-                <div class="card-body">
-                    <h2 class="card-title">
-                        <a href="https://www.youtube.com/embed/videoseries?list=PLkPW9OSHFFG9EnKIB-gR1-w5PZWXVOKcT" class="text-decoration-none" target="_blank">Animasi</a>
-                    </h2>
-                    <p>
-                        <small class="text-muted">
-                        By. Omah Technology Indonesia on Youtube
-                        </small>
-                    </p>
-                    <a href="https://youtu.be/PGHirHT3HcI?list=PLkPW9OSHFFG9EnKIB-gR1-w5PZWXVOKcT" class="btn btn-success">Go to Youtube</a>
-                </div>
-            </div>
-        </div>
-    </div>
 
 @endsection
